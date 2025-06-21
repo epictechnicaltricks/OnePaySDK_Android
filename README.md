@@ -72,7 +72,7 @@ private fun initiatePayment() {
     val paymentRequest = PaymentRequest(
         merchantId = "YOUR_MERCHANT_ID",
         transactionId = "UNIQUE_STRING_ID",
-        reqData = "YOUR_PAYMENT_DATA",
+        reqData = "YOUR_PAYMENT_DATA", // ask backend dev for encrypted req data (it contains amount, id , email, name, phone JSON format etc)
         isDebug = BuildConfig.DEBUG  // or pass "True" or "False" 
     )
     
