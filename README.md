@@ -71,9 +71,9 @@ Initiating Payment
 private fun initiatePayment() {
     val paymentRequest = PaymentRequest(
         merchantId = "YOUR_MERCHANT_ID",
-        transactionId = generateUniqueTransactionId(),
+        transactionId = "UNIQUE_STRING_ID",
         reqData = "YOUR_PAYMENT_DATA",
-        isDebug = BuildConfig.DEBUG
+        isDebug = BuildConfig.DEBUG  // or pass "True" or "False" 
     )
     
     OnePayCheckout().startPayment(paymentRequest, this)
