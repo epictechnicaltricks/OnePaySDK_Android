@@ -11,7 +11,7 @@ This SDK was completely restructured by Shubhamjit due to the poor coding standa
 The focus was on improving maintainability, readability, and integration speed without compromising functionality.
 
 
-# OnePay Payment Gateway Integration for Android
+# 1Pay Payment Gateway Integration for Android
 
 A complete implementation of the OnePay payment gateway in Android applications, supporting both Activity and Fragment implementations with proper callback handling.
 
